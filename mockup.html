@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visual Mockup - Portfolio Redesign</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:Inter,Arial,Helvetica,sans-serif;background:#0B1220;color:#E6EEF7;padding:40px}
+    .frame{max-width:900px;margin:0 auto;border-radius:12px;padding:28px;background:linear-gradient(180deg,#0F1525,#0B1220);box-shadow:0 18px 60px rgba(0,0,0,0.6)}
+    header{display:flex;justify-content:space-between;align-items:center}
+    h1{margin:0;color:#fff}
+    .hero{display:flex;gap:24px;margin-top:28px}
+    .hero .text{flex:1}
+    .hero .card{width:260px;height:260px;border-radius:12px;background:linear-gradient(135deg,#00D4AA,#6C5CE7);}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+    .card-2{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px}
+    .btn{background:#00D4AA;color:#001;display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <h1>Prashadi Edirisinghe</h1>
+      <div style="display:flex;gap:12px;align-items:center">
+        <a class="btn" href="#">Hire Me</a>
+        <a class="btn btn-github" href="https://github.com/ipedirisinghe2003-byte" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" style="margin-right:8px"></i>GitHub</a>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="text">
+        <h2>Modern, clean, and accessible portfolio</h2>
+        <p style="color:#9FB1C9">Glass cards, refined typography, clear CTAs, and better contrast for readability — built with UX best practices.</p>
+      </div>
+      <div class="card"></div>
+    </div>
+    <div class="grid">
+      <div class="card-2">Projects (filterable cards)</div>
+      <div class="card-2">Contact (floating labels + integrations)</div>
+    </div>
+  </div>
+</body>
+</html>
