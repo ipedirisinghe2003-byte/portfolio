@@ -4,7 +4,7 @@
   "description": "Personal Portfolio Website for Prashadi Edirisinghe",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node node_modules/typescript/bin/tsc",
     "watch": "tsc --watch",
     "dev": "tsc && python -m http.server 8000"
   },
